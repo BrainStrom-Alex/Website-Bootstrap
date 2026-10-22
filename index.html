@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+  <style>
+
+  </style>
+</head>
+
+<body>
+<nav class="navbar md:navbar-expand bg-1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="brainstrom.png" height="40" alt="brainstrom">BrainStrom</a>
+    <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+    <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
+      <div class="drawer-header">
+        <h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+      </div>
+      <div class="drawer-body mb-2 md:mb-0">
+        <ul class="nav navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" type="button" data-bs-toggle="menu" aria-expanded="false">
+              Services
+            </button>
+            <div class="menu">
+              <a class="menu-item" href="#">Action</a>
+              <a class="menu-item" href="#">Another action</a>
+              <hr class="menu-divider">
+              <a class="menu-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="hstack gap-2" role="search">
+          <input class="form-control" type="search" placeholder="PostCode" aria-label="Search"/>
+          <button class="btn-solid btn-icon theme-secondary" type="submit">
+            <img src="chevron-right.svg">
+          </button>
+        </form>
+      </div>
+    </dialog>
+  </div>
+</nav>
+
+<div class="px-4 pt-5 my-5 text-center border-bottom">
+  <h1 class="fs-5xl fw-bold fg-emphasis-inverse">Move With Joy</h1>
+  <div class="lg:col-6 mx-auto"><p class="fs-lg fw-light mb-4">Welcome to our website, where we are on a mission to provide exceptional moving services to customers in the US. As a startup, we believe that moving doesn't have to be stressful or complicated, and we are passionate about making the process as seamless and enjoyable as possible.
+</p>
+    <div class="d-grid gap-2 sm:d-flex sm:justify-content-center mb-5">
+    <button type="button" class="btn-solid theme-primary btn-lg px-4 sm:me-3" fdprocessedid="vxtodc">Get a Quote</button><button type="button" class="btn-outline theme-secondary btn-lg px-4" fdprocessedid="h5q6fo">Contact US</button></div></div><div class="overflow-hidden" style="max-height: 30vh;"><div class="container px-5">
+      <img src="moving-van.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"></div></div></div>
+
+
+<div class="bg-black fg-secondary px-4 py-5 text-center" data-bs-theme="dark">
+  <div class="py-5"><h1 class="fs-4xl fw-bold fg-white">BrainStrom</h1>
+    <div class="lg:col-6 mx-auto">
+      <p class="mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      <div class="d-grid gap-2 sm:d-flex sm:justify-content-center">
+        <button type="button" class="btn-outline theme-info btn-lg px-4 sm:me-3" fdprocessedid="fclde">Custom button</button><button type="button" class="btn-outline theme-secondary btn-lg px-4" fdprocessedid="aojq1p">Secondary</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</body>
+
+</html>
